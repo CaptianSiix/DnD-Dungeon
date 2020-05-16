@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Root.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Root.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">random</span>
+
+
+count = <span class="s2">0</span>
+<span class="s0">while </span><span class="s1">(count &lt; </span><span class="s2">10000</span><span class="s1">):</span>
+    leftlist = [<span class="s3">&quot;A large demonic idol with ruby eyes sits in an alcove here. The idol seems to be chanting something &quot;</span>
+                &quot;very quietly. DM Notes:She will cast reincarnate on any dead player&quot;<span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;A stone sarcophagus sits in the south side of the room, and someone has scrawled 'Death comes on silent wings' on the east wall. A Half-Red dragon stands behind it ready to attack if anyone dares attempt to open it&quot;</span><span class="s0">, </span><span class="s3">&quot;The floor is covered in perfect hexagonal tiles, and a metallic odor fills the north-east corner of the room. *If anyone investigates the room and gets above a DC15 they will discover a loose tile which reveals a Lodestone Marauder if pulled up*&quot;</span><span class="s0">, </span><span class="s3">&quot;Several pieces of blood-soaked clothing are scattered throughout the room and a Drider looks up over with a bloody face and charges in&quot;</span><span class="s0">, </span><span class="s3">&quot;Several shattered weapons are scattered throughout the room and amidst the mess is an immaculate  +1/+1 rapier&quot;</span><span class="s0">, </span><span class="s3">&quot;A rotting odor fills the room. An orc warchief is reading a book and looking at the north wall of this room. *His passive perception is 14* and if anyone disrupts him he will become aggressive yelling about how they interrupted his readings. Someone has scrawled 'Lightning comes before thunder' on the north wall. *If anyone tells him that's what it says on the wall he will apologize and become relaxed*&quot;</span><span class="s0">, </span><span class="s3">&quot;A group of demonic faces have been carved into the south wall. Stalagmites and stalactites are throughout this room. *If the party tries to leave or if they roll a DC15 investigation they will discover a rover that is trying to eat them.* &quot;</span><span class="s0">, </span><span class="s3">&quot;A statue of a cleric resurrecting an entire party sits surrounded by a pool of a vibrant green liquid&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">, </span><span class="s3">&quot;This room is empty&quot;</span><span class="s0">,</span>
+                <span class="s3">&quot;a room filled with water that doesnt spill over the door you see 1d6 sunken chests at the bottom of the &quot;</span>
+                &quot;room. You notice once you're in the room that the water seems breathable. GM notes: The chests are mimics&quot;<span class="s1">]</span>
+    left_list = random.choice(leftlist)
+    rightlist = [<span class="s3">&quot;Peters being stinky&quot;</span><span class="s0">, </span><span class="s3">&quot;a fat dude in a sundress&quot;</span><span class="s1">]</span>
+    right_list = random.choice(rightlist)
+    colorlist = [<span class="s3">&quot;red&quot;</span><span class="s0">, </span><span class="s3">&quot;black&quot;</span><span class="s0">, </span><span class="s3">&quot;mirror&quot;</span><span class="s0">, </span><span class="s3">&quot;brown&quot;</span><span class="s0">, </span><span class="s3">&quot;amber&quot;</span><span class="s0">, </span><span class="s3">&quot;verdant&quot;</span><span class="s0">, </span><span class="s3">&quot;teal&quot;</span><span class="s0">, </span><span class="s3">&quot;violet&quot;</span><span class="s0">, </span><span class="s3">&quot;crimson&quot;</span><span class="s0">, </span><span class="s3">&quot;black&quot;</span><span class="s0">,</span>
+                  <span class="s3">&quot;silver&quot;</span><span class="s0">, </span><span class="s3">&quot;gold&quot;</span><span class="s0">, </span><span class="s3">&quot;green&quot;</span><span class="s0">, </span><span class="s3">&quot;yellow&quot;</span><span class="s0">, </span><span class="s3">&quot;white&quot;</span><span class="s0">, </span><span class="s3">&quot;blue&quot;</span><span class="s1">]</span>
+    color_list = random.choice(colorlist)
+    movementlist = [<span class="s3">&quot;20&quot;</span><span class="s0">, </span><span class="s3">&quot;25&quot;</span><span class="s0">, </span><span class="s3">&quot;30&quot;</span><span class="s0">, </span><span class="s3">&quot;35&quot;</span><span class="s0">, </span><span class="s3">&quot;40&quot;</span><span class="s0">, </span><span class="s3">&quot;45&quot;</span><span class="s0">, </span><span class="s3">&quot;50&quot;</span><span class="s0">, </span><span class="s3">&quot;55&quot;</span><span class="s0">, </span><span class="s3">&quot;60&quot;</span><span class="s0">, </span><span class="s3">&quot;70&quot;</span><span class="s0">, </span><span class="s3">&quot;80&quot;</span><span class="s0">, </span><span class="s3">&quot;90&quot;</span><span class="s0">, </span><span class="s3">&quot;100&quot;</span><span class="s1">]</span>
+    movement_list = random.choice(movementlist)
+    count_list= count
+    print(<span class="s3">&quot;A crystal skull on a&quot;</span><span class="s0">, </span><span class="s1">color_list </span><span class="s0">, </span><span class="s3">&quot;Podium speaks to you and asks in a deep gravely voice, &quot;</span>
+            &quot;'You have traveled through&quot;<span class="s0">, </span><span class="s1">count_list</span><span class="s0">, </span><span class="s3">&quot;doors. What path do you wish to choose' &quot;</span>
+                                                      &quot;(Left or Right) or do you wish to leave&quot;<span class="s1">)</span>
+
+
+    side = input()
+
+    <span class="s0">if </span><span class="s1">side == </span><span class="s3">&quot;left&quot; </span><span class="s0">or </span><span class="s1">side == </span><span class="s3">&quot;Left&quot;</span><span class="s1">:</span>
+
+        print(<span class="s3">&quot;You've chosen the left hallway. You move&quot;</span><span class="s0">, </span><span class="s1">movement_list</span><span class="s0">,</span><span class="s3">&quot;feet down the hallway until you see a&quot;</span><span class="s0">,</span>
+          <span class="s1">color_list </span><span class="s0">, </span><span class="s3">&quot;door at the end&quot;</span><span class="s1">)</span><span class="s0">,</span>
+        <span class="s1">print(</span><span class="s3">&quot;Behind this door you see:&quot;</span><span class="s0">, </span><span class="s1">left_list)</span><span class="s0">, </span><span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">&quot;</span>
+        <span class="s1">count+=</span><span class="s2">1</span>
+
+    <span class="s0">elif </span><span class="s1">side == </span><span class="s3">&quot;right&quot; </span><span class="s0">or </span><span class="s1">side == </span><span class="s3">&quot;Right&quot;</span><span class="s1">:</span>
+
+        print(<span class="s3">&quot;You've chosen the right hallway. You move&quot;</span><span class="s0">, </span><span class="s1">movement_list</span><span class="s0">,</span><span class="s3">&quot;feet down the hallway until you see a&quot;</span><span class="s0">,</span>
+          <span class="s1">color_list </span><span class="s0">, </span><span class="s3">&quot;door at the end&quot;</span><span class="s1">)</span><span class="s0">,</span>
+        <span class="s1">print(</span><span class="s3">&quot;Behind this door you see:&quot;</span><span class="s0">, </span><span class="s1">right_list)</span>
+        count+=<span class="s2">1</span>
+
+
+    <span class="s0">elif </span><span class="s1">side == </span><span class="s3">&quot;leave&quot;</span><span class="s1">:</span>
+        print(<span class="s3">&quot;You awake from what feels like a dream in a chair around a poker table with gashes from sharp objects and &quot;</span>
+          &quot;rings from spilled drinks. An old lady looks at you and congratulates your on your finished trial.&quot;<span class="s1">)</span>
+        <span class="s0">break</span>
+    else<span class="s1">:</span>
+         print(<span class="s3">&quot;Sorry i dont understand&quot;</span><span class="s1">)</span>
+
+print(<span class="s3">&quot;Thank you and come again&quot;</span><span class="s1">)</span></pre>
+</body>
+</html>
